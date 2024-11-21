@@ -9,6 +9,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express-jwt": "^0.1.3"
+    "express-jwt": "^0.1.3",
+    "lodash": "^4.17.20"
   }
 }
