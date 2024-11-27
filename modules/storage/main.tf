@@ -117,7 +117,6 @@ resource "aws_s3_bucket_public_access_block" "snyk_public" {
   block_public_acls   = false
   ignore_public_acls = var.public_ignore_acl
   block_public_policy = var.public_policy_control
-  restrict_public_buckets = false
 }
 
 resource "aws_s3_bucket_public_access_block" "snyk_private" {
