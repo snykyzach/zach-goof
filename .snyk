@@ -1,5 +1,5 @@
 version: v1.0.0
 ignore:
-  "SNYK-JS-LODASH-73639":
+  "SNYK-JS-INFLIGHT-6095116":
     - reason: "business decision. SecOps team wants this ignored for testing reasons"
       expires: "2025-01-01T00:00:00Z"
